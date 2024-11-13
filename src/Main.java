@@ -35,17 +35,26 @@ public class Main {
 
         System.out.println();
         System.out.println("Задание-4");
-        byte bottles =16;
-        byte minutes=2;
-        System.out.println("Условие - машина производит "+bottles+" шт бутылок за "+minutes+" минуты");
-        int minates20=(bottles/minutes)*20;
-        System.out.println("За 20 минут машина произвела "+minates20+" штук бутылок");
-        int day=((bottles/minutes)*60)*24;
-        System.out.println("За сутки машина произвела "+day+" штук бутылок");
-        int day3=day*3;
-        System.out.println("За 3 дня машина произвела "+day3+" штук бутылок");
-        int month=day*31;
-        System.out.println("За 1 месяц машина произвела "+month+" штук бутылок");
+        byte bottles = 16;
+        byte minutes = 2;
+        System.out.println("Условие - машина производит " + bottles + " шт бутылок за " + minutes + " минуты");
+        int minates20 = (bottles / minutes) * 20;
+        System.out.println("За 20 минут машина произвела " + minates20 + " штук бутылок");
+        int day = ((bottles / minutes) * 60) * 24;
+        System.out.println("За сутки машина произвела " + day + " штук бутылок");
+        int day3 = day * 3;
+        System.out.println("За 3 дня машина произвела " + day3 + " штук бутылок");
+        int month = day * 31;
+        System.out.println("За 1 месяц машина произвела " + month + " штук бутылок");
 
+        System.out.println();
+        System.out.println("Задание-5");
+        byte dye = 120;
+        byte white = 2;
+        byte brown = 4;
+        int numberClasses = dye / (white + brown);
+        int dyeWhite = numberClasses * white;
+        int dyeBrown = numberClasses * brown;
+        System.out.println("В школе, где " + numberClasses + " классов, нужно " + dyeWhite + " банок белой краски и " + dyeBrown + " банок коричневой краски");
     }
 }
