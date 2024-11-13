@@ -22,5 +22,17 @@ public class Main {
         byte g = 67;
         System.out.println(" float=" + a + " long=" + b + " float=" + c + " short=" + d + " short=" + e + " short=" + f + " byte=" + g);
 
+        System.out.println();
+        System.out.println("Задание-3");
+        byte ludmilaPavlova=23;
+        byte annaSergeevna=27;
+        byte ekaterinaAndreevna=30;
+        short paper=480;
+        int students=ludmilaPavlova+annaSergeevna+ekaterinaAndreevna;
+        System.out.println("Колличесво учиников с 3-х класов="+students+" чел.");
+        int peperInStudents=paper/students;
+        System.out.println("На каждого ученика рассчитано "+peperInStudents+" листов бумаги");
+
+
     }
 }
