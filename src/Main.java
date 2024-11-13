@@ -46,5 +46,6 @@ public class Main {
         System.out.println("За 3 дня машина произвела "+day3+" штук бутылок");
         int month=day*31;
         System.out.println("За 1 месяц машина произвела "+month+" штук бутылок");
+
     }
 }
