@@ -21,5 +21,6 @@ public class Main {
         short f = 27897;
         byte g = 67;
         System.out.println(" float=" + a + " long=" + b + " float=" + c + " short=" + d + " short=" + e + " short=" + f + " byte=" + g);
+
     }
 }
