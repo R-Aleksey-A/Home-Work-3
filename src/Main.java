@@ -24,15 +24,27 @@ public class Main {
 
         System.out.println();
         System.out.println("Задание-3");
-        byte ludmilaPavlova=23;
-        byte annaSergeevna=27;
-        byte ekaterinaAndreevna=30;
-        short paper=480;
-        int students=ludmilaPavlova+annaSergeevna+ekaterinaAndreevna;
-        System.out.println("Колличесво учиников с 3-х класов="+students+" чел.");
-        int peperInStudents=paper/students;
-        System.out.println("На каждого ученика рассчитано "+peperInStudents+" листов бумаги");
+        byte ludmilaPavlova = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
+        short paper = 480;
+        int students = ludmilaPavlova + annaSergeevna + ekaterinaAndreevna;
+        System.out.println("Колличесво учиников с 3-х класов=" + students + " чел.");
+        int peperInStudents = paper / students;
+        System.out.println("На каждого ученика рассчитано " + peperInStudents + " листов бумаги");
 
-
+        System.out.println();
+        System.out.println("Задание-4");
+        byte bottles =16;
+        byte minutes=2;
+        System.out.println("Условие - машина производит "+bottles+" шт бутылок за "+minutes+" минуты");
+        int minates20=(bottles/minutes)*20;
+        System.out.println("За 20 минут машина произвела "+minates20+" штук бутылок");
+        int day=((bottles/minutes)*60)*24;
+        System.out.println("За сутки машина произвела "+day+" штук бутылок");
+        int day3=day*3;
+        System.out.println("За 3 дня машина произвела "+day3+" штук бутылок");
+        int month=day*31;
+        System.out.println("За 1 месяц машина произвела "+month+" штук бутылок");
     }
 }
