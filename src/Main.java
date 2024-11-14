@@ -74,20 +74,34 @@ public class Main {
         byte eggs = 4;
         byte weightEgg = 70;
         System.out.println("Масса сырых яиц = " + eggs * weightEgg + " грамм");
-        System.out.println("Вес завтрака спортсмена в граммах= " + ((bananas * weightBanana) + (weightMilk / oneMilk * milk) + (iceCream * weightIceCream) + (eggs * weightEgg))+" грамм");
-        System.out.println("Вес завтрака спортсмена в кг= " + ((bananas * weightBanana) + (weightMilk / oneMilk * milk) + (iceCream * weightIceCream) + (eggs * weightEgg)) / 1000+" кг");
+        System.out.println("Вес завтрака спортсмена в граммах= " + ((bananas * weightBanana) + (weightMilk / oneMilk * milk) + (iceCream * weightIceCream) + (eggs * weightEgg)) + " грамм");
+        System.out.println("Вес завтрака спортсмена в кг= " + ((bananas * weightBanana) + (weightMilk / oneMilk * milk) + (iceCream * weightIceCream) + (eggs * weightEgg)) / 1000 + " кг");
 
         System.out.println();
         System.out.println("Вариант-.2");
         int weightBanana1 = bananas * weightBanana;
         double weightMilk1 = (weightMilk / oneMilk) * milk;
-        int weightIceCream1=iceCream*weightIceCream;
-        int weightEggs1=eggs*weightEgg;
-        double massSportBreakfast=weightBanana1+weightMilk1+weightIceCream1+weightEggs1;
-        System.out.println("Вес спортзавтрака в граммах="+ massSportBreakfast+" грамм");
-        double massSportBreakfastKg= massSportBreakfast/1000;
-        System.out.println("Масса спортзавтрака в кг="+massSportBreakfastKg+" кг");
+        int weightIceCream1 = iceCream * weightIceCream;
+        int weightEggs1 = eggs * weightEgg;
+        double massSportBreakfast = weightBanana1 + weightMilk1 + weightIceCream1 + weightEggs1;
+        System.out.println("Вес спортзавтрака в граммах=" + massSportBreakfast + " грамм");
+        double massSportBreakfastKg = massSportBreakfast / 1000;
+        System.out.println("Масса спортзавтрака в кг=" + massSportBreakfastKg + " кг");
 
+        System.out.println();
+        System.out.println("Задание-7");
+        System.out.println("Вариант-1");
+        byte weightLossAthletes = 7;
+        int weightLossIn250 = 250;
+        int weightLossIn500 = 500;
+        int numberDays250 = weightLossIn250 / weightLossAthletes;
+        System.out.println("Колличество дней при потере в день 250 грамм = " + numberDays250 + " дней");
+        int numberDays500 = weightLossIn500 / weightLossAthletes;
+        System.out.println("Колличество дней при потере в день 500 грамм = " + numberDays500 + " день");
+
+        System.out.println("Вариант-2");
+        System.out.println("Колличество дней при потере в день 250 грамм = " + weightLossIn250 / weightLossAthletes + " дней");
+        System.out.println("Колличество дней при потере в день 500 грамм = " + weightLossIn500 / weightLossAthletes + " день");
 
     }
 }
