@@ -56,5 +56,38 @@ public class Main {
         int dyeWhite = numberClasses * white;
         int dyeBrown = numberClasses * brown;
         System.out.println("В школе, где " + numberClasses + " классов, нужно " + dyeWhite + " банок белой краски и " + dyeBrown + " банок коричневой краски");
+
+        System.out.println();
+
+        System.out.println("Задание-6");
+        System.out.println("Вариант-1");
+        byte bananas = 5;
+        byte weightBanana = 80;
+        System.out.println("Масса банонов = " + bananas * weightBanana + " грамм");
+        short milk = 200;
+        float oneMilk = 100;
+        double weightMilk = 105;
+        System.out.println("Масса молока = " + weightMilk / oneMilk * milk + " грамм");
+        byte iceCream = 2;
+        short weightIceCream = 100;
+        System.out.println("Масса мороженного бломбир = " + iceCream * weightIceCream + " грамм");
+        byte eggs = 4;
+        byte weightEgg = 70;
+        System.out.println("Масса сырых яиц = " + eggs * weightEgg + " грамм");
+        System.out.println("Вес завтрака спортсмена в граммах= " + ((bananas * weightBanana) + (weightMilk / oneMilk * milk) + (iceCream * weightIceCream) + (eggs * weightEgg))+" грамм");
+        System.out.println("Вес завтрака спортсмена в кг= " + ((bananas * weightBanana) + (weightMilk / oneMilk * milk) + (iceCream * weightIceCream) + (eggs * weightEgg)) / 1000+" кг");
+
+        System.out.println();
+        System.out.println("Вариант-.2");
+        int weightBanana1 = bananas * weightBanana;
+        double weightMilk1 = (weightMilk / oneMilk) * milk;
+        int weightIceCream1=iceCream*weightIceCream;
+        int weightEggs1=eggs*weightEgg;
+        double massSportBreakfast=weightBanana1+weightMilk1+weightIceCream1+weightEggs1;
+        System.out.println("Вес спортзавтрака в граммах="+ massSportBreakfast+" грамм");
+        double massSportBreakfastKg= massSportBreakfast/1000;
+        System.out.println("Масса спортзавтрака в кг="+massSportBreakfastKg+" кг");
+
+
     }
 }
