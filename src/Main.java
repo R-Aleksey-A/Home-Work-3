@@ -148,9 +148,9 @@ public class Main {
         float differenceEarningsDenis = annualEarningsIncreasesDenis - annualEarningsDenis;
         float differenceEarningsChristina = annualEarningsIncreasesChristina - annualEarningsChristina;
         System.out.println("Разница зарабока за год каждого сотрудника до и после повышения на 10%:" + "1.Маша=" + differenceEarningsMasha + " рублей" + " 2.Денис=" + differenceEarningsDenis + " рублей" + " 3.Кристина=" + differenceEarningsChristina + " рублей");
-
+        System.out.println();
         System.out.println("Маша теперь получает " + increasesSalaryMasha + " рублей. Годовой доход вырос на " + differenceEarningsMasha + " рублей.");
         System.out.println("Денис теперь получает " + increasesSalaryDenis + " рублей. Годовой доход вырос на " + differenceEarningsDenis + " рублей.");
-        System.out.println("Кристина теперь получает " + increasesSalaryChristina + " рублей. Годовой доход вырос на " + differenceEarningsMasha + " рублей.");
+        System.out.println("Кристина теперь получает " + increasesSalaryChristina + " рублей. Годовой доход вырос на " + differenceEarningsChristina + " рублей.");
     }
 }
