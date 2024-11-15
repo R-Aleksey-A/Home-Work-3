@@ -103,5 +103,51 @@ public class Main {
         System.out.println("Колличество дней при потере в день 250 грамм = " + weightLossIn250 / weightLossAthletes + " дней");
         System.out.println("Колличество дней при потере в день 500 грамм = " + weightLossIn500 / weightLossAthletes + " день");
 
+        System.out.println();
+        System.out.println("Задание-8");
+        System.out.println("Вариант-1");
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryChristina = 76230;
+        float companyBonus = 0.1f;
+        //можно как во 2-м варианте float companyBonus=10/100f;
+        float increasesSalaryMasha = salaryMasha * companyBonus + salaryMasha;
+        System.out.println("Зарплата Маши с этого месяця увеличена на 10 % и составит  - " + increasesSalaryMasha + " рублей");
+        float increasesSalaryDenis = salaryDenis * companyBonus + salaryDenis;
+        System.out.println("Зарплата Дениса с этого месяця увеличена на 10 % и составит  - " + increasesSalaryDenis + " рублей");
+        float increaseChristina = salaryChristina * companyBonus + salaryChristina;
+        System.out.println("Зарплата Кристины с этого месяця увеличена на 10 % и составит  - " + increaseChristina + " рублей");
+        System.out.println();
+        System.out.println("Вариант-2");
+        System.out.println("Зарплата Маши с этого месяця увеличена на 10 % и составит  - " + ((salaryMasha * companyBonus) + salaryMasha) + " рублей");
+        System.out.println("Зарплата Дениса с этого месяця увеличена на 10 % и составит  - " + ((salaryDenis * companyBonus) + salaryDenis) + " рублей");
+        System.out.println("Зарплата Кристины с этого месяця увеличена на 10 % и составит  - " + ((salaryChristina * companyBonus) + salaryChristina) + " рублей");
+        System.out.println("Вариант-3");
+        float companyBonus1 = 110 / 100f;
+        float increasesSalaryMasha1 = salaryMasha * companyBonus1;
+        System.out.println("Зарплата Маши с этого месяця увеличена на 10 % и составит  - " + increasesSalaryMasha1 + " рублей");
+        float increasesSalaryDenis1 = salaryDenis * companyBonus1;
+        System.out.println("Зарплата Дениса с этого месяця увеличена на 10 % и составит  - " + increasesSalaryDenis1 + " рублей");
+        float increaseChristina1 = salaryChristina * companyBonus1;
+        System.out.println("Зарплата Кристины с этого месяця увеличена на 10 % и составит  - " + increaseChristina1 + " рублей");
+        System.out.println();
+        System.out.println("Годовой заработок каждого сотрудника до повышения на 10%");
+        int annualEarningsMasha = salaryMasha * 12;
+        int annualEarningsDenis = salaryDenis * 12;
+        int annualEarningsChristina = salaryChristina * 12;
+        System.out.println("Годовой заработок сотрудников до повышения зарплаты на 10%: " + "1.Маша-" + annualEarningsMasha + " рублей" + " 2.Денис-" + annualEarningsDenis + " рублей" + " 3.Кристина-" + annualEarningsChristina + " рублей");
+        System.out.println();
+        System.out.println("Годовой заработок каждого сотрудника полсе повышения на 10%");
+        float annualEarningsIncreasesMasha = increasesSalaryMasha * 12;
+        float annualEarningsIncreasesDenis = increasesSalaryDenis * 12;
+        float annualEarningsIncreasesChristina = increaseChristina * 12;
+        System.out.println("Годовой заработок сотрудников после повышения зарплаты на 10%: " + "1.Маша-" + annualEarningsIncreasesMasha + " рублей" + " 2.Денис-" + annualEarningsIncreasesDenis + " рублей" + " 3.Кристина-" + annualEarningsIncreasesChristina + " рублей");
+        System.out.println();
+        System.out.println("Разница зарабока за год каждого сотрудника до и после повышения на 10%");
+        float differenceEarningsMasha = annualEarningsIncreasesMasha - annualEarningsMasha;
+        float differenceEarningsDenis = annualEarningsIncreasesDenis - annualEarningsDenis;
+        float differenceEarningsChristina = annualEarningsIncreasesChristina - annualEarningsChristina;
+        System.out.println("Разница зарабока за год каждого сотрудника до и после повышения на 10%:" + "1.Маша=" + differenceEarningsMasha + " 2.Денис=" + differenceEarningsDenis + " 3.Кристина=" + differenceEarningsChristina);
+
     }
 }
