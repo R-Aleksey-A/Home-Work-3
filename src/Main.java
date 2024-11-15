@@ -115,8 +115,8 @@ public class Main {
         System.out.println("Зарплата Маши с этого месяця увеличена на 10 % и составит  - " + increasesSalaryMasha + " рублей");
         float increasesSalaryDenis = salaryDenis * companyBonus + salaryDenis;
         System.out.println("Зарплата Дениса с этого месяця увеличена на 10 % и составит  - " + increasesSalaryDenis + " рублей");
-        float increaseChristina = salaryChristina * companyBonus + salaryChristina;
-        System.out.println("Зарплата Кристины с этого месяця увеличена на 10 % и составит  - " + increaseChristina + " рублей");
+        float increasesSalaryChristina = salaryChristina * companyBonus + salaryChristina;
+        System.out.println("Зарплата Кристины с этого месяця увеличена на 10 % и составит  - " + increasesSalaryChristina + " рублей");
         System.out.println();
         System.out.println("Вариант-2");
         System.out.println("Зарплата Маши с этого месяця увеличена на 10 % и составит  - " + ((salaryMasha * companyBonus) + salaryMasha) + " рублей");
@@ -128,8 +128,8 @@ public class Main {
         System.out.println("Зарплата Маши с этого месяця увеличена на 10 % и составит  - " + increasesSalaryMasha1 + " рублей");
         float increasesSalaryDenis1 = salaryDenis * companyBonus1;
         System.out.println("Зарплата Дениса с этого месяця увеличена на 10 % и составит  - " + increasesSalaryDenis1 + " рублей");
-        float increaseChristina1 = salaryChristina * companyBonus1;
-        System.out.println("Зарплата Кристины с этого месяця увеличена на 10 % и составит  - " + increaseChristina1 + " рублей");
+        float increaseSalaryChristina1 = salaryChristina * companyBonus1;
+        System.out.println("Зарплата Кристины с этого месяця увеличена на 10 % и составит  - " + increaseSalaryChristina1 + " рублей");
         System.out.println();
         System.out.println("Годовой заработок каждого сотрудника до повышения на 10%");
         int annualEarningsMasha = salaryMasha * 12;
@@ -140,14 +140,17 @@ public class Main {
         System.out.println("Годовой заработок каждого сотрудника полсе повышения на 10%");
         float annualEarningsIncreasesMasha = increasesSalaryMasha * 12;
         float annualEarningsIncreasesDenis = increasesSalaryDenis * 12;
-        float annualEarningsIncreasesChristina = increaseChristina * 12;
+        float annualEarningsIncreasesChristina = increasesSalaryChristina * 12;
         System.out.println("Годовой заработок сотрудников после повышения зарплаты на 10%: " + "1.Маша-" + annualEarningsIncreasesMasha + " рублей" + " 2.Денис-" + annualEarningsIncreasesDenis + " рублей" + " 3.Кристина-" + annualEarningsIncreasesChristina + " рублей");
         System.out.println();
         System.out.println("Разница зарабока за год каждого сотрудника до и после повышения на 10%");
         float differenceEarningsMasha = annualEarningsIncreasesMasha - annualEarningsMasha;
         float differenceEarningsDenis = annualEarningsIncreasesDenis - annualEarningsDenis;
         float differenceEarningsChristina = annualEarningsIncreasesChristina - annualEarningsChristina;
-        System.out.println("Разница зарабока за год каждого сотрудника до и после повышения на 10%:" + "1.Маша=" + differenceEarningsMasha + " 2.Денис=" + differenceEarningsDenis + " 3.Кристина=" + differenceEarningsChristina);
+        System.out.println("Разница зарабока за год каждого сотрудника до и после повышения на 10%:" + "1.Маша=" + differenceEarningsMasha + " рублей" + " 2.Денис=" + differenceEarningsDenis + " рублей" + " 3.Кристина=" + differenceEarningsChristina + " рублей");
 
+        System.out.println("Маша теперь получает " + increasesSalaryMasha + " рублей. Годовой доход вырос на " + differenceEarningsMasha + " рублей.");
+        System.out.println("Денис теперь получает " + increasesSalaryDenis + " рублей. Годовой доход вырос на " + differenceEarningsDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + increasesSalaryChristina + " рублей. Годовой доход вырос на " + differenceEarningsMasha + " рублей.");
     }
 }
