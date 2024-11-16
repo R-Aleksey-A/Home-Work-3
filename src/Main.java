@@ -91,17 +91,17 @@ public class Main {
         System.out.println();
         System.out.println("Задание-7");
         System.out.println("Вариант-1");
-        byte weightLossAthletes = 7;
+        int weightLossAthletes = 7*1000;
         int weightLossIn250 = 250;
         int weightLossIn500 = 500;
-        int numberDays250 = weightLossIn250 / weightLossAthletes;
+        int numberDays250 = weightLossAthletes/weightLossIn250 ;
         System.out.println("Колличество дней при потере в день 250 грамм = " + numberDays250 + " дней");
-        int numberDays500 = weightLossIn500 / weightLossAthletes;
+        int numberDays500 = weightLossAthletes/weightLossIn500;
         System.out.println("Колличество дней при потере в день 500 грамм = " + numberDays500 + " день");
 
         System.out.println("Вариант-2");
-        System.out.println("Колличество дней при потере в день 250 грамм = " + weightLossIn250 / weightLossAthletes + " дней");
-        System.out.println("Колличество дней при потере в день 500 грамм = " + weightLossIn500 / weightLossAthletes + " день");
+        System.out.println("Колличество дней при потере в день 250 грамм = " +  weightLossAthletes/weightLossIn250 + " дней");
+        System.out.println("Колличество дней при потере в день 500 грамм = " +  weightLossAthletes/weightLossIn500 + " день");
 
         System.out.println();
         System.out.println("Задание-8");
